@@ -1,0 +1,196 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(--color1);
+    font-family: var(--font);
+
+}
+
+.hidden{
+    display: none;
+    
+}
+
+:root{
+    --primary-color:hsl(25, 97%, 53%);
+    --color1:hsl(0, 0%, 100%);
+    --color2:hsl(217, 12%, 63%);
+    --color3:hsl(216, 12%, 54%);
+    --color4:hsl(213, 19%, 18%);
+    --color5:hsl(216, 12%, 8%);
+    --font:font-family: 'Overpass', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+body{
+    
+    font-size: 15px;
+    background-color: rgb(48, 48, 48);
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div#container{
+    width: 375px;
+    background-color: var(--color4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 25px;
+    gap: 30px;
+}
+
+
+section#conteudo-nota{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 253, 253, 0.062);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+img{
+    width: 20px;
+    
+    
+    
+}
+
+section#conteudo-nota h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+section#conteudo-nota p{
+    color: var(--color2);
+    
+}
+
+section#conteudo-nota div#notas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+section#conteudo-nota .btn-nota{
+    background-color: rgba(240, 248, 255, 0.062);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 47px;
+    height:47px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+
+}
+
+section#conteudo-nota .btn-nota:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+section#conteudo-nota .btn-nota:focus{
+    background-color: var(--color3);
+    cursor: pointer;
+}
+
+section#conteudo-nota .btn-submit{
+    width: 100%;
+    border-radius: 1.5em;
+    border: none;
+    color: var(--primary-color);
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-color: var(--primary-color);
+    color: var(--color1);
+}
+
+section#conteudo-nota .btn-submit:hover{
+    background-color: var(--color1);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/*Parte 2 */
+
+section#conteudo-agradecimento{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+section#conteudo-agradecimento img{
+    width: 200px;
+    
+}
+
+
+
+section#conteudo-agradecimento h2{
+    
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section#conteudo-agradecimento > p{
+    color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 10px;
+    border-radius: 1.5em;
+    
+}
+
+section#conteudo-agradecimento div.info p{
+    color: var(--color2);
+    text-align: center;
+    
+}
+
